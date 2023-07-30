@@ -27,3 +27,16 @@ table {
 .title {
     color: #ff9800;
 }
+
+.Chair {
+    &.booking{
+        background-color: red !important;
+        color: white;
+    }
+    &.booked {
+        background-color: gray;
+        color: white;
+        // tắt hết các event của button đó luôn
+        pointer-events: none;
+    }
+}

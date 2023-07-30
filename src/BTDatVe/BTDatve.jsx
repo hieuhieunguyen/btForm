@@ -36,9 +36,6 @@ const BTDatve = () => {
           SCREEN THIS WAY
         </div>
 
-        <div className="d-flex justify-content-center mt-4 mb-4">
-          <button className="btn btn-light">Confirm selection</button>
-        </div>
         <Result />
       </div>
       <p className="text-center m-5">
